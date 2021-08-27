@@ -200,66 +200,29 @@ img {
   padding-top: 95px;
   padding-bottom: 115px;
 }
-
 .about-list {
   display: flex;
 }
 
-.about-item.antena::before {
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  content: "";
-  background-image: url(../img/antenna.svg);
-  background-position: center;
-  background-size: 70px, 70px;
-  background-repeat: no-repeat;
-  background-color: #f5f4fa;
-}
-.about-item.clock::before {
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  content: "";
-  background-image: url(../img/clock.svg);
-  background-position: center;
-  background-size: 70px, 70px;
-  background-repeat: no-repeat;
-  background-color: #f5f4fa;
-}
-.about-item.diagram::before {
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  content: "";
-  background-image: url(../img/diagram.svg);
-  background-position: center;
-  background-size: 70px, 70px;
-  background-repeat: no-repeat;
-  background-color: #f5f4fa;
-}
-.about-item.cosmo::before {
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  content: "";
-  background-image: url(../img/astronaut.svg);
-  background-position: center;
-  background-size: 70px, 70px;
-  background-repeat: no-repeat;
-  background-color: #f5f4fa;
-}
 .about-item {
   flex: 1 1 auto;
-
   width: 270px;
   height: 251px;
 }
-
+.about-icon-item {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  display: flex;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  background-position: center;
+}
+.about-box {
+  width: 100%;
+  height: 100%;
+}
 .about-box:not(:last-child) {
   margin-right: 30px;
 }
